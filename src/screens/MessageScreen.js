@@ -2,22 +2,22 @@ import { StyleSheet, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 
-export const TasksScreen = () => {
+export const MessageScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>Tasks</Text>
+      <Text>Message</Text>
     </View>
   );
 }
 
-TasksScreen.navigationOptions = {
-  headerTitle: 'Tasks',
-  /*
+MessageScreen.navigationOptions = {
+  headerTitle: 'Message',
+  
   headerStyle: {
-    backgroundColor: 'red',
+    backgroundColor: 'lime',
   },
   headerTintColr: '#fff'
-  */
+  
 }
 
 const styles = StyleSheet.create({

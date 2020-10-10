@@ -2,21 +2,21 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 
-export const MainScreen = ({navigation}) => {
-    const goToTasks = () => {
-        navigation.navigate('Profile')
+export const MatchesScreen = ({navigation}) => {
+    const Message = () => {
+        navigation.navigate('Message')
     }
 
     return (
         <View style={styles.container}>
-            <Text>Profiles</Text>
-            <Button title='go to Profile' onPress={goToTasks}></Button>
+            <Text>Matches and Messages</Text>
+            <Button title='Message' onPress={Message}></Button>
         </View>
     );
 }
 
-MainScreen.navigationOptions = {
-    headerTitle: 'Search'
+MatchesScreen.navigationOptions = {
+    headerTitle: 'Matches'
 }
 
 const styles = StyleSheet.create({

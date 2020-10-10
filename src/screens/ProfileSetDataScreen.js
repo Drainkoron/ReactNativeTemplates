@@ -2,22 +2,22 @@ import { StyleSheet, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 
-export const TasksScreen = () => {
+export const ProfileSetDataScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>Tasks</Text>
+      <Text>Data to Edit</Text>
     </View>
   );
 }
 
-TasksScreen.navigationOptions = {
-  headerTitle: 'Tasks',
-  /*
+ProfileSetDataScreen.navigationOptions = {
+  headerTitle: 'Edit Mode',
+  
   headerStyle: {
     backgroundColor: 'red',
   },
   headerTintColr: '#fff'
-  */
+  
 }
 
 const styles = StyleSheet.create({
